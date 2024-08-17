@@ -1,0 +1,116 @@
+{
+  "core": {
+    "email-address": "Email Address",
+    "password": "Password",
+    "name" : "Name",
+    "cancel" : "Cancel",
+    "save" : "Save",
+    "send" : "Send"
+  },
+  "signup": {
+    "signin": "Sign In",
+    "signup": "Sign Up",
+    "header": "Create Your Account",
+    "email-address-label": "@:core.email-address",
+    "email-address-placeholder": "Enter your @:core.email-address",
+    "invalid-email": "Email does not exist in our record",
+    "password-label": "@:core.password",
+    "password-placeholder": "Enter your @:core.password",
+    "first-name": "First Name",
+    "last-name": "Last Name",
+    "company-name-label" : "Company Name",
+    "company-url" : "Company Url",
+    "forgot-password": "Forgot @:core.password",
+    "password-recipe": "Must be 8 or more characters with at least 1 capitalized letter and 1 number",
+    "company-url-placeholder": "Enter your Company Website",
+    "tos": "Terms & Conditions",
+    "accept-tnc": "I accept the RunnerTag {0}",
+    "invalid-code": "INVALID 2FA CODE",
+    "unknown-error": "An unknown error occurred"
+  },
+  "strengthMessages" : ["Input a password", "Weak", "Medium", "Strong", "Very Strong"],
+  "balance": {
+    "balance-column-title": "Balance",
+    "top-up-column-title": "Credits",
+    "runner-tagged": "RUNNERS TAGGED",
+    "credits": "CREDITS REMAINING",
+    "public-sites": "PUBLIC SITES",
+    "select-package": "SELECT PACKAGE",
+    "invoicing-total-due": "Total Due",
+    "invoicing-credits": "Credits",
+    "buy-now": "Buy Now",
+    "billing-history-title": "Invoices",
+    "no-invoice": "No Invoices Yet",
+    "note-title": "Notes",
+    "notes": [
+      "Every image upload is one credit;",
+      "Credits remain on the account until used, so purchase higher qualtities to save;",
+      "After three years of inactivity, credits will expire and sites will be deactivated;",
+      "RunnerTag’s AI is applied at the moment an image is uploaded. As a result, every image will be invoiced, even if it was uploaded in error and/or later deleted."
+    ]
+  },
+  "settings" : {
+    "detail-column-title" : "Details",
+    "password-column-title" : "Security",
+    "mfa-column-title" : "2FA Authentication",
+    "organisation-column-title" : "Organisation",
+    "top-bar" : {
+      "profile" : "Settings",
+      "billing" : "Payment Methods",
+      "balance" : "Credits & Invoicing",
+      "subaccount" : "Users"
+    },
+    "profile" : {
+      "mfa" : { 
+        "title" : "Two Factor Authentication",
+        "detail" : "Two-factor authentication adds an additional layer of security to your account by requiring more than just a password to sign in."
+      }
+    }
+  },
+  "event" : {
+    "settings" : {
+      "details" : {
+        "event-logo" : {
+          "heading" : "Event Logo"
+        },
+        "basic-info" : {
+          "heading" : "Event Information"
+        }, 
+        "checkpoints" : {
+          "heading" : "Checkpoints"
+        }
+      },
+      "purchase" : {
+        "purchase-setting-notes" : "10% of sales - after all required taxes - are withheld to cover payment processing fees & support. Revenue is distributed monthly. For more information contact <a href='mailto:support@runnertag.com'>support@runnertag.com</a>"
+      }
+    },
+    "dashboard" : {
+      "T_ALL" : "All",
+      "T_UPCOMING" : "Upcoming",
+      "T_RECENT" : "Recent",
+      "T_PAST" : "Past",
+      "E_ALL" : "All",
+      "E_PUBLIC" : "Public",
+      "E_PRIVATE" : "Private",
+      "colors" : {
+        "accent" : "Button",
+        "link" : "Button Text",
+        "background" : "Background",
+        "text" : "Text"
+      }
+    },
+    "uploader" : {
+      "select-checkpoint" : "Select Checkpoint",
+      "toast" : {
+        "file-size" : "| The file exceeds {MAX_PHOTO_UPLOAD_SIZE} MB and will not be uploaded | {n} files exceed {MAX_PHOTO_UPLOAD_SIZE} MB and will not be uploaded"
+      }
+    }
+  },
+  "modal" : {
+    "email-enquiry" : {
+      "heading" : "Technical Support",
+      "sub-heading" : "If you have any questions please contact us using the form below",
+      "request-title" : "Describe the issue..."
+    }
+  }
+}
